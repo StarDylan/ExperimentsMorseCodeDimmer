@@ -1,3 +1,4 @@
+/*
 Copyright (c) 2021, Dylan Starink
 All rights reserved.
 
@@ -6,7 +7,7 @@ LICENSE file in the root directory of this source tree.
 
 #define timeUnitMS 500
 #define outputPin LED_BUILTIN
-
+*/
 
 /* Writing Morse Code Conventions
 
