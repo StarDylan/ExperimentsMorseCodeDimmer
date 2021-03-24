@@ -5,9 +5,10 @@ All rights reserved.
 This source code is licensed under the BSD-style license found in the
 LICENSE file in the root directory of this source tree. 
 
-#define timeUnitMS 500
-#define outputPin LED_BUILTIN
 */
+
+#define timeUnitMS 500
+#define outputPin 2
 
 /* Writing Morse Code Conventions
 
@@ -17,7 +18,7 @@ LICENSE file in the root directory of this source tree.
    | between words
 
 */
-const String morseCode = "... --- ...";
+const String morseCode = ".--. --- --. ...";
 
 //Morse Code Timings
 
